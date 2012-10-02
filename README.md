@@ -73,3 +73,31 @@ FisshplateUtil.process()は必要に応じて内部で二回Fisshplateのテン�
 
 のように#metaタグに続けて #{...} と記述した場合は ${...} に変換して実行されます。
 一度目の処理では変数展開されたくないけど、二回目の処理で展開したい場合に使用します。
+
+セットアップ
+----------------
+以下の依存関係をpom.xmlに追加してください。
+
+```xml
+<repositories>
+  <repository>
+    <id>amateras</id>
+    <name>Project Amateras Maven2 Repository</name>
+    <url>http://amateras.sourceforge.jp/mvn/</url>
+  </repository>
+</repositories>
+
+<dependencies>
+  <dependency>
+    <groupId>jp.sf.amateras.fisshplate-meta</groupId>
+    <artifactId>fisshplate-meta</artifactId>
+    <version>1.0.0</version>
+  </dependency>
+</dependencies>
+```
+
+更新履歴
+----------------
+### Version 1.0.0(2012/10/03)
+
+* はじめての一般公開。
