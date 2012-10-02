@@ -1,7 +1,7 @@
 fisshplate-meta
 ===============
 
-Fisshplate(http://fisshplate.sandbox.seasar.org/ja/)はExcelを使用したテンプレートエンジンですが、
+[Fisshplate](http://fisshplate.sandbox.seasar.org/ja/)はExcelを使用したテンプレートエンジンですが、
 縦方向、横方向の繰り返しはできるのですが、縦横両方向に伸びるようなテンプレートを記述することができません。
 そこで、Fisshplateによる処理を二回実行し、まずは横方向の繰り返し処理を実行して横方向を確定し、
 縦方向の繰り返し処理用のタグの入ったExcelファイルを生成し、二回目の処理で縦方向の繰り返し処理を行う
