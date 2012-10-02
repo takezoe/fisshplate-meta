@@ -10,7 +10,7 @@ Fisshplateでは縦方向、横方向の繰り返しはできるのですが、�
 
 これをExcelの記述だけで実現できるようにしてみました。用意するのは以下のようなテンプレートです。
 
-![テンプレート](images/template.png)
+![テンプレート](https://github.com/takezoe/fisshplate-meta/blob/master/images/template.png?raw=true)
 
 このテンプレートを次のようなコードで処理します。
 
@@ -58,7 +58,7 @@ os.close();
 
 するとこんな感じで縦横両方向に可変の表が出力されます。
 
-![テンプレート](images/result.png)
+![テンプレート](https://github.com/takezoe/fisshplate-meta/blob/master/images/result.png?raw=true)
 
 FisshplateUtil.process()は必要に応じて内部で二回Fisshplateのテンプレートの展開処理を行っています。
 
